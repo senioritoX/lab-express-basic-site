@@ -1,3 +1,46 @@
 body{
   background-color: red;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
+
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content:  flex-end;
+  background-color: #003840;
+  padding-right: 2.5%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+
+}
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 10px;
+  color:white;
+  border:none;
+}
+
+a:link {
+  color: #003840;
+}
+
+a:visited {
+  color:white;
+}
+
+a:focus {
+  background: #005A5B;
+}
+
+a:hover {
+  background: #005A5B;
+}
+
+a:active {
+  background: #265301;
+  color: #005A5B;
+}
+
